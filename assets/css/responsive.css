@@ -1,0 +1,100 @@
+@media(max-width:1024px){
+    .education-year h1 {
+        font-size: 60px;
+    }
+    .experience-box-detail h1 {
+        font-size: 88px;
+    }
+    .experience-place {
+        height: 260px;
+    }
+    .slick-dots {
+        bottom: -40px !important;
+    }
+}
+@media(max-width:768px){
+    .experience-box-detail h1 {
+        font-size: 107px;
+    }
+    .experience-place {
+        height: 240px;
+    }
+    .education-year h1 {
+        font-size: 55px;
+    }
+    .about-img {
+        text-align: center;
+    }
+    .box-education-left:after {
+        border: 3px solid transparent;
+    }
+    .box-education-right:after {
+        border: 3px solid transparent;
+    }
+    .box-education-right {
+        text-align: right;
+    }
+    .photos-porfolio{
+        column-count: 2;
+    }
+    
+}
+@media(max-width:767px){
+    .about-img {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .about-section {
+        padding-top: 30px;
+    }
+    .box-education-right:hover:after {
+        border: 3px solid transparent;
+        background-color: transparent;
+    }
+    .experience-box-detail h1 {
+        font-size: 90px;
+    }
+    .experience-place {
+        background-color: #20234e;
+        padding: 40px 20px 40px 40px;
+        height: 410px;
+        z-index: -1;
+    }
+    
+    .about-go {
+        top: 0%;
+        left: 50%;
+        transform: rotateZ(-90deg);
+    }
+    .portfolio-go {
+        top: 85%;
+        right: 45%;
+        transform: rotateZ(-90deg);
+    }
+    .slider-skills i {
+        font-size: 100px;
+        padding-left: 20px;
+    }
+    .education-place {
+        border-bottom: 1px solid #404040;
+        padding-bottom: 35px;
+        margin-bottom: 35px;
+    }
+    .education-year h1 {
+        margin-top: 0;
+    }
+    .photos-porfolio{
+        column-count: 1;
+    }
+}
+@media(max-width:330px){
+    .experience-box-detail h1 {
+        font-size: 70px;
+    }
+    .experience-place {
+        background-color: #20234e;
+        padding: 40px 20px 40px 30px;
+        height: 470px;
+        z-index: -1;
+    }
+}
