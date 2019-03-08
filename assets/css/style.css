@@ -549,8 +549,9 @@ body.portfolio-on .portfolio-section {
 }
 
 .grid figure p {
-	letter-spacing: 1px;
-	font-size: 68.5%;
+    letter-spacing: 1px;
+    font-size: 75%;
+    margin: 15px 0px 25px;
 }
 figure {
     margin: 0 0 10px;
@@ -558,18 +559,25 @@ figure {
 
 figure.effect-zoe figcaption {
 	top: auto;
-	bottom: -1px;
-	padding: 10px 15px 5px;
-	height: 3em;
-	background: #20234e;
-	-webkit-transition: -webkit-transform 0.35s;
-	transition: transform 0.35s;
-	-webkit-transform: translate3d(0,100%,0);
-	transform: translate3d(0,100%,0);
+    bottom: 0;
+    /* padding: 10px 15px 5px; */
+    height: 3em;
+    background: #20234e;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0,100%,0);
+    transform: translate3d(0,100%,0);
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
 }
-
-figure.effect-zoe h2 {
-	float: left;
+.works-contain {
+    padding: 25px;
+    text-align: left;
+}
+.works-contain-long {
+    padding: 0px 25px;
+    text-align: left;
 }
 
 figure.effect-zoe p.icon-links a {
@@ -585,23 +593,24 @@ figure.effect-zoe:hover p.icon-links a:focus {
 
 figure.effect-zoe p.description {
 	position: absolute;
-	bottom: 120%;
-	padding: 2em;
-	color: #fff;
-	text-transform: none;
+    bottom: 290%;
+    padding: 2em;
+    color: #fff;
+    text-transform: none;
     font-size: 90%;
-    text-shadow: 4px 2px 20px rgba(0,0,0,1) ;
-	opacity: 0;
-	-webkit-transition: opacity 0.35s;
-	transition: opacity 0.35s;
-    -webkit-backface-visibility: hidden; /* Fix for Chrome 37.0.2062.120 (Mac) */
+    text-shadow: 4px 2px 20px rgba(0,0,0,1);
+    opacity: 0;
+    -webkit-transition: opacity 0.35s;
+    transition: opacity 0.35s;
+    -webkit-backface-visibility: hidden;
     font-weight: 700;
+    text-align: left;
 }
-figure.effect-zoe p.description a{
+figure.effect-zoe p.description-work a{
     color:#fff;
     font-weight: 700;
 }
-figure.effect-zoe p.description a:hover{
+figure.effect-zoe p.description-work a:hover{
     color:#e51681;
     text-decoration: none;
 }
@@ -623,14 +632,20 @@ figure.effect-zoe p.icon-links a span::before {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-figure.effect-zoe h2 {
-	display: inline-block;
-}
-figure.effect-zoe h2 a {
+figure.effect-zoe a.look-work {
     color: #fff;
     font-weight: 500;
+    border: 2px solid #fff;
+    padding: 7px 20px;
 }
-figure.effect-zoe h2 a:hover {
+
+figure.effect-zoe a.look-work:hover {
+    color: #fff;
+    background-color: #e51681 !important;
+    border: 1px #e51681 !important;
+}
+
+figure.effect-zoe a:hover {
     color: #e51681;
     text-decoration: none;
 }
