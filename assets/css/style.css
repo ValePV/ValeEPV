@@ -739,3 +739,6 @@ figure.effect-zoe:hover h2 {
     border: 1px solid #e51681;
     background-color: #e51681;
 }
+.iconoJumpseller img {
+    max-width: 100%;
+}
